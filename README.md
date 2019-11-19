@@ -5,14 +5,19 @@ I don't know Node. Actually, it's just that I don't know Node as well as I could
 
 Any suggestions for little programs, code challenges, or applications that can showcase different features and abilities of Node that could be added to this list would be greatly appreciated...
 
-## Topics that I don't know how to work into a small application or code challenge, yet:
-Using Node Locally, Asynchronous Patterns, Advanced Streams, HTTP Streams, ...
+## Topics that I don't know how to work into a small application or code challenges, yet:
+- Using Node Locally (Name some additional reasons to use Node locally)
+- Asynchronous Patterns
+- Advanced Streams
+- HTTP Streams
+- ???
 
 ## The 100 Days of Node list (so far)
 1. [Install Node.js](https://nodejs.org/en/download/) (Let's start off with an easy win!)
 1. Write and run a Local "Hello World"
 1. Write a text-based Choose Your Own Adventure
 1. Write a text-based RPG combat module
+1. Errors: Error Handling in Node
 1. NPM: Manage NPM Packages
 1. NPM: Write an NPM Module
 1. NPM: Understanding package.json
@@ -35,17 +40,22 @@ Using Node Locally, Asynchronous Patterns, Advanced Streams, HTTP Streams, ...
 1. Socket: Create a post message service
 1. Socket: Connect to Socket.io from the browser app
 1. Socket: Create a Socket.io event
-1. DB: Working with Data
 1. DB: Set up MongoDB
-1. DB: Mongoose
-1. DB: Create a Mongo CRUD
-1. Errors: Error Handling in Node
+1. DB: Mongo CRUD, Create
+1. DB: Mongo CRUD, Read
+1. DB: Mongo CRUD, Update
+1. DB: Mongo CRUD, Delete
+1. DB: SQL CRUD, Create
+1. DB: SQL CRUD, Read
+1. DB: SQL CRUD, Update
+1. DB: SQL CRUD, Delete
 1. HTTP Module: Make a GET request
 1. HTTP Module: Create a web server
 1. HTTP Module: Create a file server
 1. HTTP Module: Collect POST Data
 1. Testing: Write Node tests with Jest
 1. Testing: Write Node tests with Jasmine
+1. Testing: Write Node tests (HTTP) with Supertest
 1. Microservice: Make a Catalog Service
 1. Microservice: Make a Promotions Service
 1. Microservice: Make an A/B Testing Service
@@ -59,5 +69,5 @@ Using Node Locally, Asynchronous Patterns, Advanced Streams, HTTP Streams, ...
 1. Node Deployment: Set up Travis CI/CD
 1. Node Deployment: Set up Cirrcle CI/CD
 1. ???
-...
-101. Profit!
+
+101\. Profit!

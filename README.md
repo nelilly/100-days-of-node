@@ -95,6 +95,7 @@ Any suggestions for little programs, code challenges, or applications that can s
 ### 000 "Hello World"
 - [Install Node.js](https://nodejs.org/en/download/)
 - Write "Hello World"
+
 Let's start with an easy win! Install Node.js and write a Hello World script named `000-hello-world.js`
 
 ## Resources

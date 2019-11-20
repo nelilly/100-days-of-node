@@ -85,7 +85,7 @@ Any suggestions for little programs, code challenges, or applications that can s
 1. Node IoT: &amp; Arduino
 1. Node IoT: &amp; Raspberry Pi
 1. Node IoT: Interactive Smart Mirror
-1. Desktop: Use Electron
+1. Node Desktop: Use Electron
 1. ???
 
 101\. Profit!

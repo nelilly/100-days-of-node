@@ -13,7 +13,7 @@ Any suggestions for little programs, code challenges, or applications that can s
 - ???
 
 ## The 100 Days of Node list (so far)
-1. Install Node + Write and run a Local "Hello World" (Let's start off with an easy win!)
+1. ["Hello World"](#000-hello-world)
 1. ? The V8 JavaScript Engine
 1. Read environment variables from Node.js
 1. Use the Node.js REPL
@@ -92,9 +92,10 @@ Any suggestions for little programs, code challenges, or applications that can s
 
 101\. Profit!
 
-### 000 Install Node + "Hello World"
+### 000 "Hello World"
 - [Install Node.js](https://nodejs.org/en/download/)
 - Write "Hello World"
+Let's start with an easy win! Install Node.js and write a Hello World script named `000-hello-world.js`
 
 ## Resources
 - freeCodeCamp [Learn Node.js - Full Tutorial for Beginners](https://www.youtube.com/watch?v=RLtyhwFtXQA) (video)

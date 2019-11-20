@@ -14,7 +14,6 @@ Any suggestions for little programs, code challenges, or applications that can s
 
 ## The 100 Days of Node list (so far)
 1. ["Hello World"](#000-hello-world)
-1. ? The V8 JavaScript Engine
 1. Read environment variables from Node.js
 1. Use the Node.js REPL
 1. Write an application that uses the Event Loop

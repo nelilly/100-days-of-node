@@ -98,4 +98,4 @@ Let's start with an easy win! Install Node.js and write a Hello World script nam
 ## Resources
 - [Learn Node.js - Full Tutorial for Beginners](https://www.youtube.com/watch?v=RLtyhwFtXQA) (video), freeCodeCamp
 - [Learning Node, 2nd Edition](https://oreilly.com/library/view/learning-node-2nd/9781491943113/), O'Reilly
-- freeCodeCamp [The Definitive Node.js Handbook](https://www.freecodecamp.org/news/node-js-handbook/), freeCodeCamp
+- [The Definitive Node.js Handbook](https://www.freecodecamp.org/news/node-js-handbook/), freeCodeCamp

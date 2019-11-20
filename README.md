@@ -96,6 +96,6 @@ Any suggestions for little programs, code challenges, or applications that can s
 Let's start with an easy win! Install Node.js and write a Hello World script named `000-hello-world.js`
 
 ## Resources
-- freeCodeCamp [Learn Node.js - Full Tutorial for Beginners](https://www.youtube.com/watch?v=RLtyhwFtXQA) (video)
-- O'Reilly [Learning Node, 2nd Edition](https://oreilly.com/library/view/learning-node-2nd/9781491943113/)
-- freeCodeCamp [The Definitive Node.js Handbook](https://www.freecodecamp.org/news/node-js-handbook/)
+- [Learn Node.js - Full Tutorial for Beginners](https://www.youtube.com/watch?v=RLtyhwFtXQA) (video), freeCodeCamp
+- [Learning Node, 2nd Edition](https://oreilly.com/library/view/learning-node-2nd/9781491943113/), O'Reilly
+- freeCodeCamp [The Definitive Node.js Handbook](https://www.freecodecamp.org/news/node-js-handbook/), freeCodeCamp

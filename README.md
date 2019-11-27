@@ -81,8 +81,17 @@ Any suggestions for little programs, code challenges, or applications that can s
 1. Node Deployment: Set up Jenkins CI/CD
 1. Node Deployment: Set up Travis CI/CD
 1. Node Deployment: Set up Cirrcle CI/CD
-1. Node IoT: &amp; Arduino
-1. Node IoT: &amp; Raspberry Pi
+1. Node IoT: Real-Time Temperature Logging with Arduino, Node, and Plotly
+1. Node IoT: The Arduino Experimenter's Guide to Node.js
+1. Node IoT: Controlling a MotorBoat using Arduino and Node
+1. Node IoT: Cylon Arduino module?
+1. Node IoT: Arduino Node.js RC Car Driven the HTML5 Gamepad API
+1. Node IoT: How to Control Philips Hue Lights from an Arduino
+1. Node IoT: Easy Node.js and Web Sockets LED for Raspberry Pi
+1. Node IoT: Heimcontrol.js: Home Monitoring with Raspberry Pi and Node.js
+1. Node IoT: Build Your Own Smart TV usinf Node.js, Raspberry Pi, and Sockets.io
+1. Node IoT: Building a Garage Door Opener with Node and MQTT Using and Intel Edison
+1. Node IoT: Amazon's Guide to Make Your Own Raspberry Pi Alexa Device
 1. Node IoT: Interactive Smart Mirror
 1. Node Desktop: Use Electron
 1. ???

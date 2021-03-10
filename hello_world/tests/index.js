@@ -1,6 +1,7 @@
 var assert = require("assert");
 var expect = require("chai").expect;
-var port = require("../index.js").port;
+var index = require("../index")
+var port = index.port;
 
 describe("Hello World Test", function(){
     it("Should return true if it prints Hello World in p tags", function(){
@@ -8,6 +9,6 @@ describe("Hello World Test", function(){
     })
     it("Should open on port 3020", function(){
         console.log(port)
-        expect(port).to.equal(3020)
+        expect(process.env.port).to.equal(3020)
     })
 })

@@ -8,7 +8,7 @@ let questions = [
     },
     {
         type: 'input',
-        favFood: 'whiskey',
+        favFood: 'pizza',
         question: 'What\'s your favorite food?'
     }
 ]

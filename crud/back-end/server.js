@@ -1,45 +1,12 @@
-const mariadb = require('mariadb')
 const express = require('express')
 const cors = require('cors')
-require('dotenv').config()
+const dbGetCall = require('./read')
+const dbPostCall = require('./create')
+const deleteEntry = require('./delete')
+const updateEntry = require('./update')
 const app = express()
 const router = express.Router()
 const PORT = 4000
-
-const pool = mariadb.createPool({
-  socketPath: '/run/mysqld/mysqld.sock',
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASS,
-  database: 'books_library',
-  timezone: 'Pacific/Honolulu',
-  multipleStatements: true,
-  supportBigInt: true
-
-})
-
-const dbGetCall = () => {
-  pool.query('SELECT * FROM authors')
-    .then(res => { return res })
-    .catch(err => console.log(err))
-  pool.end()
-    .then(() => console.log('Connection ended'))
-    .catch(err => console.log(err))
-}
-
-const dbPostCall = (last, first, country) => {
-  pool.getConnection()
-    .then(conn => conn.query('INSERT INTO authors(name_last, name_first, country) VALUES(?, ?, ?);', [last, first, country])
-      .then(res => {
-        console.log(res)
-        conn.release()
-      })
-      .catch(err => console.log(err))
-    )
-  // pool.end()
-  //   .then(() => console.log('Connection ended'))
-  //   .catch(err => console.log(err))
-}
 
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
@@ -49,15 +16,33 @@ app.use(
     credentials: true
   }))
 
-app.route('/')
+app.route('/api')
   .get((req, res) => {
-    dbGetCall()
-    res.send()
+    // console.log(req.query.table)
+    // setTimeout(() => {
+    //   console.log(dbGetCall(req.query.table))
+    // }, 5000)
+    const response = dbGetCall(req.query.table)
+      .then(res => { return res })
+      .catch(err => console.log(err))
+    setTimeout(() => {
+      res.send(response)
+      console.log(response)
+      // console.log(response)
+    }, 1000)
   })
   .post((req, res) => {
-    console.log(JSON.parse(Object.keys(req.body)).last)
-    dbPostCall(JSON.parse(Object.keys(req.body)).last, JSON.parse(Object.keys(req.body)).first, JSON.parse(Object.keys(req.body)).country)
+    console.log(Object.values(JSON.parse(Object.keys(req.body)))) // Tracer code
+    dbPostCall(req.body)
     res.send('Entry accepted!')
+  })
+  .put((req, res) => {
+    updateEntry(req.body)
+    res.send('Entry changed.')
+  })
+  .delete((req, res) => {
+    deleteEntry(req.body)
+    res.send('Entry deleted.')
   })
 
 module.exports = router

@@ -8,12 +8,21 @@ function App () {
   const [lastName, setLastName] = useState('')
   const [firstName, setFirstName] = useState('')
   const [countryName, setCountryName] = useState('')
+  const [table, setTable] = useState('')
 
   useEffect(() => {
     const apiReturned = false
     if (isLoading === true) {
-      Axios.get('http://localhost:4000/')
-        .then(res => console.log(res))
+      Axios.get('http://localhost:4000/api', {
+        headers: {
+          'Content-type': 'application/x-www-form-urlencoded'
+
+        },
+        params: {
+          table: table
+        }
+      })
+        .then(res => console.log(res.data))
         .catch(err => console.log(err))
         .finally(() => { return !apiReturned })
     }
@@ -39,14 +48,19 @@ function App () {
       .catch(err => console.log(err))
   }
 
+  const handleClick = (tableChoice) => {
+    setTable(tableChoice)
+    setIsLoading(true)
+  }
+
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
     <div className="get">
-    <button onClick={() => setIsLoading(true)} >Click dat faka!</button>
+      <h2>View library</h2>
+    <button onClick={() => handleClick('authors')} >View authors</button>
+    <button onClick={() => handleClick('books')} >View books</button>
+
     </div>
     <form onSubmit={handleSubmit}>
       <h2>Add author to library</h2>

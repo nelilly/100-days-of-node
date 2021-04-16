@@ -4,6 +4,7 @@ const dbGetCall = require('./read')
 const dbPostCall = require('./create')
 const deleteEntry = require('./delete')
 const updateEntry = require('./update')
+const { response } = require('express')
 const app = express()
 const router = express.Router()
 const PORT = 4000
@@ -18,18 +19,9 @@ app.use(
 
 app.route('/api')
   .get((req, res) => {
-    // console.log(req.query.table)
-    // setTimeout(() => {
-    //   console.log(dbGetCall(req.query.table))
-    // }, 5000)
-    const response = dbGetCall(req.query.table)
-      .then(res => { return res })
+    dbGetCall(req.query.table)
+      .then(tableData => res.send(tableData))
       .catch(err => console.log(err))
-    setTimeout(() => {
-      res.send(response)
-      console.log(response)
-      // console.log(response)
-    }, 1000)
   })
   .post((req, res) => {
     console.log(Object.values(JSON.parse(Object.keys(req.body)))) // Tracer code

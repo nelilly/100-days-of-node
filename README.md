@@ -102,7 +102,14 @@ Any suggestions for little programs, code challenges, or applications that can s
 - [Install Node.js](https://nodejs.org/en/download/)
 - Write "Hello World"
 
-Let's start with an easy win! Install Node.js and write a Hello World script named `000-hello-world.js`
+Let's start with an easy win! 
+1. Install Node.js
+1. Create a directory named `000`
+1. Write a Hello World script named `hello-world.js`
+
+### 001 "Read env variables"
+1. Create a directory named `001`
+1. Write a script that lists the env variables
 
 ## Resources
 - [Learn Node.js - Full Tutorial for Beginners](https://www.youtube.com/watch?v=RLtyhwFtXQA) (video), freeCodeCamp

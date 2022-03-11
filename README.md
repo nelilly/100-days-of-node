@@ -1,7 +1,7 @@
 # 100 Days of Node
-A Node.js curriculum for 100 days of code. I'll be taking up the [100 Days of Code](https://www.100daysofcode.com/) challenge, but strictly focusing on Node and Node-adjacent code.
+A Node.js curriculum for 100 days of code. A [100 Days of Code](https://www.100daysofcode.com/) challenge, strictly focusing on Node and Node-adjacent code.
 
-I don't know Node. Actually, it's just that I don't know Node as well as I could. I'll spend 100 days learning all about the in and outs of Node; what it can do; and where it's the best (and worst) technology to solve any particular challenge. 
+I created this repository because I felt that I did't know Node as well as I could. It became a source to help other developers learn more about using Node. Spend 100 days learning all about the in and outs of Node; what it can do; and where it's the best (and worst) technology to solve any particular challenge.
 
 Any suggestions for little programs, code challenges, or applications that can showcase different features and abilities of Node that could be added to this list would be greatly appreciated...
 

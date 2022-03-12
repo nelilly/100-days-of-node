@@ -1,22 +1,27 @@
 # 100 Days of Node
 A Node.js curriculum for 100 days of code. A [100 Days of Code](https://www.100daysofcode.com/) challenge, strictly focusing on Node and Node-adjacent code.
 
-I created this repository because I felt that I did't know Node as well as I could. It became a source to help other developers learn more about using Node. Spend 100 days learning all about the in and outs of Node; what it can do; and where it's the best (and worst) technology to solve any particular challenge.
+I created this repository to learn the breadth and depth of Node. It became a source to help other developers learn more about using Node. Spend 100 days learning all about the in and outs of Node; what it can do; and where it's the best (and worst) technology to solve any particular challenge.
 
 Any suggestions for little programs, code challenges, or applications that can showcase different features and abilities of Node that could be added to this list would be greatly appreciated...
 
+## The 100 Days of Node list (so far)
+<!-- 
 ## Topics that I don't know how to work into a small application or code challenges, yet:
 - Using Node Locally (Name some additional reasons to use Node locally)
 - Asynchronous Patterns
 - Advanced Streams
 - HTTP Streams
 - ???
-
-## The 100 Days of Node list (so far)
-1. ["Hello World"](#000-hello-world)
+-->
+0. ["Hello World"](#000-hello-world)
 1. [Read environment variables from Node.js](#001-read-env-variables)
 1. [Write a script that adds two numbers](#002-write-a-script-that-adds-two-numbers)
 1. [Use the Node REPL](#003-use-the-node-repl)
+1. [Accept arguments from the command line](#004-accept-arguments-from-the-command-line)
+1. Explore console commands
+1. Accept input from the command line
+1. Use node import/export modules
 1. Write an application that uses the Event Loop
 1. Write an application that uses Timers
 1. Write an application that uses Asynchronous Programming and Callbacks
@@ -119,7 +124,7 @@ Let's start with an easy win!
 ### 002 Write a script that adds two numbers
 1. Create a directory named `002`
 1. Create a script named `add.js`
-1. Write a function that adds two number
+1. Write a function that adds two numbers
 1. Console.log the results of adding two numbers
 
 ### 003 Use the Node REPL
@@ -133,6 +138,14 @@ REPL stands for `Read Evaluate Print Loop`. The REPL session provides a way to q
 1. Console.log the `global` variable
 1. Add a variable to the `global` variable
 1. Console.log your new variable
+
+### 004 Accept arguments from the command line
+Adding arguments into your node command (`node arguments.js env=dev`) will add them as strings to the `process.argv` array.
+
+1. Create a directory named `004`
+1. Create a script named `arguments.js`
+1. Write a script to console.log all of the arguments passed in, but only the arguments that you pass in
+1. Run a command that passes in multiples arguments such as: `node 004/arguments.js name=nathan surname=lilly devMode=test singularArg`
 
 ## Resources
 - [Learn Node.js - Full Tutorial for Beginners](https://www.youtube.com/watch?v=RLtyhwFtXQA) (video), freeCodeCamp

@@ -19,7 +19,7 @@ Any suggestions for little programs, code challenges, or applications that can s
 1. [Write a script that adds two numbers](#002-write-a-script-that-adds-two-numbers)
 1. [Use the Node REPL](#003-use-the-node-repl)
 1. [Accept arguments from the command line](#004-accept-arguments-from-the-command-line)
-1. Explore console commands
+1. [Explore console commands](#005-explore-console-commands)
 1. Accept input from the command line
 1. Use node import/export modules
 1. Write an application that uses the Event Loop
@@ -146,6 +146,21 @@ Adding arguments into your node command (`node arguments.js env=dev`) will add t
 1. Create a script named `arguments.js`
 1. Write a script to console.log all of the arguments passed in, but only the arguments that you pass in
 1. Run a command that passes in multiples arguments such as: `node 004/arguments.js name=nathan surname=lilly devMode=test singularArg`
+
+### 005 Explore console commands
+There is a built in `console` command in Node, much like you'd find in the browser.
+
+1. Create a directory named `005`
+1. Create a script named `console.js`
+1. Write a script using the log method with variables passed in `console.log('My %s has %d ears', 'cat', 2)`
+1. Use the count method several times
+1. Use the clear method
+1. Use the count method at least one more time
+1. Reset the count
+1. Print the stack trace
+1. Print an error message with an error code
+1. Print a table
+1. Measure the time from the first console event to the end of the console events
 
 ## Resources
 - [Learn Node.js - Full Tutorial for Beginners](https://www.youtube.com/watch?v=RLtyhwFtXQA) (video), freeCodeCamp

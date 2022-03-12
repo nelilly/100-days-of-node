@@ -163,6 +163,7 @@ There is a built in `console` command in Node, much like you'd find in the brows
 1. Measure the time from the first console event to the end of the console events
 
 ## Resources
+- [Node Documentation](https://nodejs.org/api/)
 - [Learn Node.js - Full Tutorial for Beginners](https://www.youtube.com/watch?v=RLtyhwFtXQA) (video), freeCodeCamp
 - [Learning Node, 2nd Edition](https://oreilly.com/library/view/learning-node-2nd/9781491943113/), O'Reilly
 - [The Definitive Node.js Handbook](https://www.freecodecamp.org/news/node-js-handbook/), freeCodeCamp

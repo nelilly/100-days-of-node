@@ -15,7 +15,7 @@ Any suggestions for little programs, code challenges, or applications that can s
 ## The 100 Days of Node list (so far)
 1. ["Hello World"](#000-hello-world)
 1. [Read environment variables from Node.js](#001-read-env-variables)
-1. [Write a script that add two numbers](#002-write-a-script-that-add-two-numbers)
+1. [Write a script that adds two numbers](#002-write-a-script-that-adds-two-numbers)
 1. Use the Node.js REPL
 1. Write an application that uses the Event Loop
 1. Write an application that uses Timers
@@ -106,11 +106,21 @@ Any suggestions for little programs, code challenges, or applications that can s
 Let's start with an easy win! 
 1. Install Node.js
 1. Create a directory named `000`
-1. Write a Hello World script named `hello-world.js`
+1. Create a script named `hello-world.js`
+1. Import `http` with `require`
+1. Serve a text respons of `Hello World` to port `8124`
+1. Console.log an message saying what port is running
 
 ### 001 "Read env variables"
 1. Create a directory named `001`
-1. Write a script that lists the env variables named `env.js`
+1. Create a script named `env.js`
+1. Console.log the values of `process.version` and `process.env`
+
+### 002 Write a script that adds two numbers
+1. Create a directory named `002`
+1. Create a script named `add.js`
+1. Write a function that adds two number
+1. Console.log the results of adding two numbers
 
 ## Resources
 - [Learn Node.js - Full Tutorial for Beginners](https://www.youtube.com/watch?v=RLtyhwFtXQA) (video), freeCodeCamp

@@ -16,7 +16,7 @@ Any suggestions for little programs, code challenges, or applications that can s
 1. ["Hello World"](#000-hello-world)
 1. [Read environment variables from Node.js](#001-read-env-variables)
 1. [Write a script that adds two numbers](#002-write-a-script-that-adds-two-numbers)
-1. Use the Node.js REPL
+1. [Use the Node REPL](#003-use-the-node-repl)
 1. Write an application that uses the Event Loop
 1. Write an application that uses Timers
 1. Write an application that uses Asynchronous Programming and Callbacks
@@ -111,7 +111,7 @@ Let's start with an easy win!
 1. Serve a text respons of `Hello World` to port `8124`
 1. Console.log an message saying what port is running
 
-### 001 "Read env variables"
+### 001 Read env variables
 1. Create a directory named `001`
 1. Create a script named `env.js`
 1. Console.log the values of `process.version` and `process.env`
@@ -121,6 +121,18 @@ Let's start with an easy win!
 1. Create a script named `add.js`
 1. Write a function that adds two number
 1. Console.log the results of adding two numbers
+
+### 003 Use the Node REPL
+REPL stands for `Read Evaluate Print Loop`. The REPL session provides a way to quickly test simple JavaScript code.
+
+1. Create a directory named `003`
+1. Create a script named `repl.js`
+1. Write a script that enters a REPL session
+1. Have the script console.log a message on exiting the REPL session
+1. Run your REPL script
+1. Console.log the `global` variable
+1. Add a variable to the `global` variable
+1. Console.log your new variable
 
 ## Resources
 - [Learn Node.js - Full Tutorial for Beginners](https://www.youtube.com/watch?v=RLtyhwFtXQA) (video), freeCodeCamp

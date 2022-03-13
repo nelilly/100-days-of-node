@@ -20,7 +20,7 @@ Any suggestions for little programs, code challenges, or applications that can s
 1. [Use the Node REPL](#003-use-the-node-repl)
 1. [Accept arguments from the command line](#004-accept-arguments-from-the-command-line)
 1. [Explore console commands](#005-explore-console-commands)
-1. Accept input from the command line
+1. [Accept input on the command line](#006-accept-input-on-the-command-line)
 1. Use node import/export modules
 1. Write an application that uses the Event Loop
 1. Write an application that uses Timers
@@ -161,6 +161,12 @@ There is a built in `console` command in Node, much like you'd find in the brows
 1. Print an error message with an error code
 1. Print a table
 1. Measure the time from the first console event to the end of the console events
+
+### 006 Accept input on the command line
+1. Create a directory named `006`
+1. Create a script named `input.js`
+1. Ask three questions and print their input
+1. Use a conditional to check the answer for at least one of the questions
 
 ## Resources
 - [Node Documentation](https://nodejs.org/api/)

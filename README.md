@@ -21,7 +21,7 @@ Any suggestions for little programs, code challenges, or applications that can s
 1. [Accept arguments from the command line](#004-accept-arguments-from-the-command-line)
 1. [Explore console commands](#005-explore-console-commands)
 1. [Accept input on the command line](#006-accept-input-on-the-command-line)
-1. Use node import/export modules
+1. [Use node import/export modules](#007-use-node-import-export-modules)
 1. Write an application that uses the Event Loop
 1. Write an application that uses Timers
 1. Write an application that uses Asynchronous Programming and Callbacks
@@ -167,6 +167,15 @@ There is a built in `console` command in Node, much like you'd find in the brows
 1. Create a script named `input.js`
 1. Ask three questions and print their input
 1. Use a conditional to check the answer for at least one of the questions
+
+### 007 Use node import/export modules
+1. Create a directory named `007`
+1. Create a script named `import.js`
+1. Create a script named `export.js`
+1. Write an object into `export.js`
+1. Import the contents of `export.js` into `'import.js` and log it to the console
+1. Add a function to the object
+1. Import and use the function
 
 ## Resources
 - [Node Documentation](https://nodejs.org/api/)
